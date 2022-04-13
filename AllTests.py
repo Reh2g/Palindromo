@@ -1,4 +1,5 @@
 # PALÍNDROMO
+
 def palindrome(word):
     if word[::-1].lower() == word.lower():
         print('PALINDROME!')
