@@ -103,7 +103,7 @@ def spellChecker(phrase):
         if phrase_low[i] not in wordlist:
             not_in_wordlist.append(phrase_low[i])
     
-    return not_in_wordlist
+# return not_in_wordlist
 
 # ● PROBABILIDADE DE VALOR EM UMA AMOSTRA
 
