@@ -1,4 +1,4 @@
-# ● PALÍNDROMO
+# ● PALÍNDROMO:
 
 def palindrome(word):
     if word[::-1].lower() == word.lower():
@@ -10,7 +10,7 @@ def palindrome(word):
 
 # palindrome('ana')
 
-# ● MATRIZ
+# ● MATRIZ:
 
 def mostrar_matriz():
     Matriz = [
@@ -26,7 +26,7 @@ def mostrar_matriz():
 
 # mostrar_matriz()
 
-# ● CRIANDO MATRIZ
+# ● CRIANDO MATRIZ:
 
 def criar_matriz():
     matriz = []
@@ -44,7 +44,7 @@ def criar_matriz():
 
 # criar_matriz()
 
-# ● CÁLCULO DA VARIÂNCIA
+# ● CÁLCULO DA VARIÂNCIA:
 
 import numpy as np
 
@@ -66,7 +66,7 @@ def variancia(dados, tipo=1):
 
 # variancia([40000, 18000, 12000, 150000, 30000, 140000, 300000, 40000, 800000])
 
-# ● FATORIAL
+# ● FATORIAL:
 
 def fatorial(num):
     cont = num
@@ -86,7 +86,7 @@ def combinations(n, p):
 
 # combinations(60, 6)
 
-# ● VERIFICANDO SE PALAVRAS EXISTEM EM UMA WORDLIST
+# ● VERIFICANDO SE PALAVRAS EXISTEM EM UMA WORDLIST:
 
 def spellChecker(phrase):
     
@@ -105,7 +105,7 @@ def spellChecker(phrase):
     
 # return not_in_wordlist
 
-# ● PROBABILIDADE DE VALOR EM UMA AMOSTRA
+# ● PROBABILIDADE DE VALOR EM UMA AMOSTRA:
 
 def probabilidade_amostra():
     from random import randint
@@ -150,7 +150,7 @@ def probabilidade_amostra():
 
 # probabilidade_amostra()
 
-# ● CONTANDO CARACTERES UNICOS
+# ● CONTANDO CARACTERES UNICOS:
 
 def char_unicos():
     letras = {}
@@ -172,7 +172,7 @@ def char_unicos():
 
 # char_unicos()
 
-# ● ANAGRAMA COM DICT
+# ● ANAGRAMA COM DICT:
 
 def dict_anagram():
     dp1 = {}
